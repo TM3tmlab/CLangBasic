@@ -15,8 +15,8 @@ int main(int argc, char* argv[])
     /* コマンドライン引数の個数検証 */
     if (argc != 3) {
         printf("整数を2個引数に指定してください\n");
-        printf("ex) gdc 5 10\n");
-        printf("ex) gdc 1071 1029\n");
+        printf("ex) gcd 5 10\n");
+        printf("ex) gcd 1071 1029\n");
         return 1;
     }
 
