@@ -31,3 +31,7 @@ set noexpandtab
 " 言語ごとの構文カラー表示を有効
 " vi 互換では無効
 syntax on
+
+" ステータスラインの行数を増やす
+set laststatus=2
+
